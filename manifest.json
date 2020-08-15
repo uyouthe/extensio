@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "NAME",
+  "version": "1.0.0",
+  "description": "DESCRIPTION",
+  "permissions": [],
+  "content_scripts": [{
+    "matches": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "js": [
+      "app.js"
+    ]
+  }]
+}
